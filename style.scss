@@ -27,7 +27,7 @@ body {
     flex-direction: column;
     width: $html-width;
 }
-// header start
+
 header {
     display: flex;
     justify-content: flex-start;
@@ -88,7 +88,7 @@ header {
     }
 }
 // header end
-// main start
+
 main {
     display: flex;
     flex-direction: column;
@@ -151,6 +151,7 @@ main {
             }
         }
         // end of previews
+
         .wit-text {
             width: 50%;
             height: 100%;
@@ -168,6 +169,7 @@ main {
         // end of wit-text
     }
     // end of what-it-does
+
     .get-started {
         display: flex;
         width: $html-width;
@@ -192,6 +194,7 @@ main {
         }
     }
     // end of getstarted
+
     .features {
         width: $html-width;
         height: 735px;
@@ -236,6 +239,197 @@ main {
                     font-weight: 400;
                     margin-top: 15px;
                 }
+            }
+        }
+        // end of features container
+    }
+    // end of features
+
+    .social-reviews {
+        width: $html-width;
+        height: 431px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        .sr-blur {
+            z-index: 1;
+            position: absolute;
+            width: $html-width;
+            height: 431px;
+            background: linear-gradient(0.25turn, white 2%, transparent 20%, transparent 80%, white 98%);
+        }
+
+        .arrows-container {
+            z-index: 2;
+            position: absolute;
+            width: $html-width;
+            height: 431px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 101px;
+
+            img {
+                cursor: pointer;
+            }
+            img:last-child {
+                margin-left: auto;
+            }
+        }
+
+        .sr-p {
+            width: $html-width;
+            height: 130px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .sr-social {
+            width: $html-width;
+            height: 160px;
+            display: flex;
+            justify-content: center;
+            overflow: hidden;
+            align-items: center;
+            flex-wrap: nowrap;
+
+            .social-box {
+                min-width: 309px;
+                height: 160px;
+                border: 1px solid #828282;
+                margin: 0 18px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                border-radius: 4px;
+
+                .sb-name {
+                    width: 309px;
+                    height: 63px;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    padding: 0 15px;
+
+                    p {
+                        margin-left: 11px;
+                        font-size: 16px;
+                        font-weight: bold;
+                    }
+
+                    img:last-child {
+                        margin-left: auto;
+                    }
+                }
+                .sb-content {
+                    width: 309px;
+                    height: 98px;
+                    padding-left: 17px;
+                    padding-right: 13px;
+                    font-size: 14px;
+                }
+            }
+        }
+
+        .sr-img {
+            width: $html-width;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    // end of social reviews
+
+    .featured-in {
+        width: $html-width;
+        height: 278px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        div {
+            width: $html-width - 360px;
+            height: inherit - 57px - 68px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 29px 0;
+
+            p {
+                font-size: 28px;
+                font-weight: bold;
+            }
+        }
+    }
+    // end of featured in
+
+    .last-section {
+        width: $html-width;
+        height: 483px;
+        background: url(images/last-section.png);
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        div:first-child {
+            width: 50%;
+            height: inherit;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            padding-left: 30px;
+
+            p:first-child {
+                font-size: 28px;
+                font-weight: bold;
+            }
+
+            p {
+                width: 535px;
+                font-size: 16px;
+                font-weight: 400;
+            }
+
+            img {
+                margin-right: 28px;
+            }
+        }
+    }
+    // end of end-section
+}
+// end of main
+
+footer {
+    width: $html-width;
+    height: 127px;
+    background: #00ADEE;
+    display: flex;
+
+    div {
+        width: 33.33%;
+        height: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        a{
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            margin: 0 18px;
+
+            img {
+                margin: 0 -10px;
             }
         }
     }
