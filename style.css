@@ -63,6 +63,7 @@ header .presentation {
   width: 546px;
   margin-top: 61px;
   margin-left: 163px;
+  border: 2px solid red;
 }
 
 header .presentation .app {

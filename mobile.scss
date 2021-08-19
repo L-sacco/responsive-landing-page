@@ -1,0 +1,25 @@
+@media only screen and (max-width: 600px) {
+
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 600px;
+        height: 525px;
+        background-color: #F4F6F9;
+        background-image: none;
+
+        .presentation {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    main {
+        
+        max-width: 600px;
+    }
+}

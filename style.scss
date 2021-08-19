@@ -1,6 +1,6 @@
 /* variables */
 $html-width: 1440px;
-$content: 1111px;
+$debug: 2px solid red;
 
 * {
     margin: 0;
@@ -28,7 +28,7 @@ body {
     width: $html-width;
 }
 
-header {
+header { // desktop
     display: flex;
     justify-content: flex-start;
     width: $html-width;
@@ -43,10 +43,11 @@ header {
         width: 546px;
         margin-top: 61px;
         margin-left: 163px;
-
+        border: $debug;
+        
         .app {
             margin-top: 133px;
-
+            
             p, p, button {
                 padding: 15px 0;
             }
