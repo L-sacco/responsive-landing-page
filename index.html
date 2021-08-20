@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="style.css.map">
     <link rel="stylesheet" href="mobile.scss">
     <link rel="stylesheet" href="mobile.css">
-    <link rel="stylesheet" href="mobile.scss">
+    <link rel="stylesheet" href="mobile.css.map">
     <title>Sports - Football live scores & results</title>
 </head>
 <body>
@@ -21,8 +21,8 @@
             <div class="presentation">
                 <a href="index.html"><img src="images/logo.png" alt=""></a>
                 <div class="app">
-                    <p>Get a personalized football <br>experience tailored just for you</p>
-                    <p>Achieve super-fan status by getting tailored updates and <br>up-to-the-minute information on your team.</p>
+                    <p>Get a personalized football experience tailored just for you</p>
+                    <p>Achieve super-fan status by getting tailored updates and up-to-the-minute information on your team.</p>
                     <button class="apple store"></button>
                     <button class="google store"></button>
                 </div>
@@ -33,18 +33,19 @@
         <!-- whatitdoes -->
         <div class="what-it-does">
             <div class="previews">
-                <img src="images/match-example.png" alt="">
-                <img src="images/player.png" alt="">
+                <div class="match-example-img"></div>
+                <div class="player-preview-img"></div>
+                <div class="mobile-preview-img"></div>
             </div>
             <div class="wit-text">
                 <div>
-                    <p>WHAT IT DOES</p><br>
-                    <p id="p2">An Enhanced Football Experience</p><br>
-                    <p id="p3">The Guardian Live Scores app is your go to app for live scores and watching Premier League goals… Get in there, what a result!
+                    <p class="p1">WHAT IT DOES</p><br>
+                    <p class="p2">An Enhanced Football Experience</p><br>
+                    <p class="p3">The Guardian Live Scores app is your go to app for live scores and watching Premier League goals… Get in there, what a result!
                         <br><br>
                         As well as videos of all the goals, you can watch match highlights, check out the latest scores and results and stay bang-up-to-date with the big football stories from The Guardian publication.</p>
                         <br>
-                    <p id="p4"><a href="#">Learn more</a></p>
+                    <p class="p4"><a href="#">Learn more</a></p>
                 </div>
             </div>
         </div>
@@ -54,75 +55,84 @@
         <div class="get-started">
             <div class="gs-text">
                 <div>
-                    <p id="p1">GET STARTED</p><br>
-                    <p id="p2">User-friendly Interface</p><br>
-                    <p id="p3">The in-game goal clips from every Premier League match are available to Guardian TV customers with a Guardian subscription.
+                    <p class="p1">GET STARTED</p><br>
+                    <p class="p2">User-friendly Interface</p><br>
+                    <p class="p3">The in-game goal clips from every Premier League match are available to Guardian TV customers with a Guardian subscription.
                         <br><br>
                         So, if you’re not a subscriber, now’s the time to make that savvy call. If that’s a step too far for you, you can still watch loads of firecracker Premier League action as long as you sign in with a free Guardian iD.
                         <br><br>
-                        <p id="p4"><a href="#">Learn more</a></p>
+                        <p class="p4"><a href="#">Learn more</a></p>
                 </div>
             </div>
-            <img src="images/Section3.png" alt="">
+            <div class="mobile-background"></div>
         </div>
         <!-- \getstarted -->
 
         <!-- features -->
         <div class="features">
-            <p>Features That Will Tailor Your Experience</p>
+            <p class="p2">Features That Will Tailor Your Experience</p>
             <div class="features-container">
                 <div>
-                    <img src="images/Section4-images/1.png" alt="">
-                    <p>
-                        • Video highlights for every Premier League and English Football League game 
+                    <img class="feature-desktop" src="images/Section4-images/1.png" alt="">
+                    <img class="feature-mobile" src="images/Mobile/section4-images-mobile/1.png" alt="">
+                    <p class="p3">
+                        Video highlights for every Premier League and English Football League game
                     </p>
                 </div>
                 <div>
-                    <img src="images/Section4-images/2.png" alt="">
-                    <p>
-                        • Notifications for your teams, including in-game goal clips and Premier League match highlights for Sky TV subscribers with Guardian.
+                    <img class="feature-desktop" src="images/Section4-images/2.png" alt="">
+                    <img class="feature-mobile" src="images/Mobile/section4-images-mobile/2.png" alt="">
+                    <p class="p3">
+                        Notifications for your teams, including in-game goal clips and Premier League match highlights for Sky TV subscribers with Guardian.
                     </p>
                 </div>
                 <div>
-                    <img src="images/Section4-images/3.png" alt="">
-                    <p>
-                        • Brand new video section including dedicated areas for your chosen team, trending video, Premier League, Football league and other major leagues
+                    <img class="feature-desktop" src="images/Section4-images/3.png" alt="">
+                    <img class="feature-mobile" src="images/Mobile/section4-images-mobile/3.png" alt="">
+                    <p class="p3">
+                        Brand new video section including dedicated areas for your chosen team, trending video, Premier League, Football league and other major leagues
                     </p>
                 </div>
                 <div>
-                    <img src="images/Section4-images/4.png" alt="">
-                    <p>
-                        • Match pages showing live scores, commentary, team line-ups and enhanced match stats to keep you up-to-date on all the action
+                    <img class="feature-desktop" src="images/Section4-images/4.png" alt="">
+                    <img class="feature-mobile" src="images/Mobile/section4-images-mobile/4.png" alt="">
+                    <p class="p3">
+                        Match pages showing live scores, commentary, team line-ups and enhanced match stats to keep you up-to-date on all the action
                     </p>
                 </div>
                 <div>
-                    <img src="images/Section4-images/5.png" alt="">
-                    <p>
-                        • The new picture in picture video mode means you can watch goals, manager interviews and more whilst using other areas of the app – so you don’t need to miss any of the action
+                    <img class="feature-desktop" src="images/Section4-images/5.png" alt="">
+                    <img class="feature-mobile" src="images/Mobile/section4-images-mobile/5.png" alt="">
+                    <p class="p3">
+                        The new picture in picture video mode means you can watch goals, manager interviews and more whilst using other areas of the app – so you don’t need to miss any of the action
                     </p>
                 </div>
                 <div>
-                    <img src="images/Section4-images/6.png" alt="">
-                    <p>
-                        • Live updated league tables including all the domestic, European and major leagues and tournaments
+                    <img class="feature-desktop" src="images/Section4-images/6.png" alt="">
+                    <img class="feature-mobile" src="images/Mobile/section4-images-mobile/6.png" alt="">
+                    <p class="p3">
+                        Live updated league tables including all the domestic, European and major leagues and tournaments
                     </p>
                 </div>
                 <div>
-                    <img src="images/Section4-images/7.png" alt="">
-                    <p>
-                        • The Guardian News Vidiprinter. Follow the goals as they go in with our new and improved Vidiprinter
+                    <img class="feature-desktop" src="images/Section4-images/7.png" alt="">
+                    <img class="feature-mobile" src="images/Mobile/section4-images-mobile/7.png" alt="">
+                    <p class="p3">
+                        The Guardian News Vidiprinter. Follow the goals as they go in with our new and improved Vidiprinter
                     </p>
                 </div>
                 <div>
-                    <img src="images/Section4-images/8.png" alt="">
-                    <p>
-                        • Match reports, previews and a dedicated news section
+                    <img class="feature-desktop" src="images/Section4-images/8.png" alt="">
+                    <img class="feature-mobile" src="images/Mobile/section4-images-mobile/8.png" alt="">
+                    <p class="p3">
+                        Match reports, previews and a dedicated news section
                     </p>
                 </div>
                 <div>
-                    <img src="images/Section4-images/9.png" alt="">
-                    <p>
-                        • And you can achieve super-fan status by personalising your home page with up-to-the-minute information on your team.
+                    <img class="feature-desktop" src="images/Section4-images/9.png" alt="">
+                    <img class="feature-mobile" src="images/Mobile/section4-images-mobile/9.png" alt="">
+                    <p class="p3">
+                        And you can achieve super-fan status by personalising your home page with up-to-the-minute information on your team.
                     </p>
                 </div>
             </div>
@@ -133,14 +143,14 @@
             <div class="social-reviews">
                 <div class="sr-blur"></div>
                 <div class="sr-p">
-                    <p>What Our Users Say</p>
+                    <p class="p2">What Our Users Say</p>
                 </div>
                 <div class="sr-social">
                     <div class="arrows-container">
-                        <img src="images/left-arrow.png" alt="">
+                        <img class="mobile-hidden" src="images/left-arrow.png" alt="">
                         <img src="images/right-arrow.png" alt="">
                     </div>
-                    <div class="social-box">
+                    <div class="social-box mobile-hidden">
                         <div class="sb-name">
                             <img src="" alt="">
                             <p>Sarah Udoma</p>
@@ -150,7 +160,7 @@
                             I use this app every day and it's a great way to keep up to date with what's going on in football.
                         </div>
                     </div>
-                    <div class="social-box">
+                    <div class="social-box mobile-hidden">
                         <div class="sb-name">
                             <img src="images/social-reviews/pic2.png" alt="">
                             <p>Noah Jackson</p>
@@ -170,7 +180,7 @@
                             Good for scores and commentary but the team lineups have stopped working. 
                         </div>
                     </div>
-                    <div class="social-box">
+                    <div class="social-box mobile-hidden">
                         <div class="sb-name">
                             <img src="images/social-reviews/pic4.png" alt="">
                             <p>Michael Akinuli</p>
@@ -180,7 +190,7 @@
                             Good for watching the goals and great for highlights instead of waiting till 10:30 before you can watch highlights on March of the day also no need of sky go
                         </div>
                     </div>
-                    <div class="social-box">
+                    <div class="social-box mobile-hidden">
                         <div class="sb-name">
                             <img src="images/social-reviews/pic5.png" alt="">
                             <p>Sarah Udoma</p>
@@ -200,24 +210,25 @@
         <!-- featured-in -->
             <div class="featured-in">
                 <div>
-                    <p>We have been featured in</p>
+                    <p class="p2">We have been featured in</p>
                 </div>
                 <div>
                     <img src="images/Featured-section-images/sportstv.png" alt="">
-                    <img src="images/Featured-section-images/sports.png" alt="">
+                    <img id="margin" src="images/Featured-section-images/sports.png" alt="">
                     <img src="images/Featured-section-images/nbc-sports-1.png" alt="">
                     <img src="images/Featured-section-images/designer-technology.png" alt="">
                     <img src="images/Featured-section-images/designer-news.png" alt="">
-                    <img src="images/Featured-section-images/sky-sports-1.png" alt="">
+                    <img id="centered" src="images/Featured-section-images/sky-sports-1.png" alt="">
                 </div>
             </div>
         <!-- \featured-in -->
 
         <!-- lastsection -->
             <div class="last-section">
-                <div>
-                    <p>Get Up Close With Your Team</p><br>
-                    <p>If you’re interested in the scores of more than one team (it’s OK, we won’t tell your mates you support two clubs!), you can choose the scores and competitions that matter to you using the ‘My Scores’ section. So, make sure you’re a top-flight football fan by downloading the Football Score Centre now. It’s got all this:</p>
+                <div class="ls-img"></div>
+                <div class="ls-text">
+                    <p class="p2">Get Up Close With Your Team</p><br>
+                    <p class="p3">If you’re interested in the scores of more than one team (it’s OK, we won’t tell your mates you support two clubs!), you can choose the scores and competitions that matter to you using the ‘My Scores’ section. So, make sure you’re a top-flight football fan by downloading the Football Score Centre now. It’s got all this:</p>
                     <br><br>
                     <div>
                         <img src="images/Apple-Store.png" alt="">
@@ -228,16 +239,16 @@
         <!-- \lastsection -->
     </main>
     <footer>
-        <div>
+        <div class="footer-logo">
             <img src="images/footer-logo.png" alt="">
         </div>
-        <div>
+        <div class="footer-links">
             <a href="#">Download</a>
             <a href="#">Support</a>
             <a href="#">Developers</a>
             <a href="#">Privacy</a>
         </div>
-        <div>
+        <div class="footer-social">
             <a href=""><img src="images/social/twitter-icon.png" alt=""></a>
             <a href=""><img src="images/social/facebook-icon.png" alt=""></a>
             <a href=""><img src="images/social/instagram-icon.png" alt=""></a>
