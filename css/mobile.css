@@ -100,12 +100,12 @@
             box-shadow: 1px 1px 2px #f4f6f9;
   }
   header .presentation .google {
-    background: url(images/Google-Play.png);
+    background: url(../images/Google-Play.png);
     background-repeat: no-repeat;
     background-position: center;
   }
   header .presentation .apple {
-    background: url(images/Apple-Store.png);
+    background: url(../images/Apple-Store.png);
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -187,8 +187,8 @@
             align-items: center;
     width: 100%;
     height: 360px;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, white), color-stop(transparent), color-stop(99.9%, rgba(255, 255, 255, 0.384))), url(images/Mobile/Section2-mobile.png);
-    background: linear-gradient(0.5turn, white 10%, transparent, rgba(255, 255, 255, 0.384) 99.9%), url(images/Mobile/Section2-mobile.png);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, white), color-stop(transparent), color-stop(99.9%, rgba(255, 255, 255, 0.384))), url(../images/Mobile/Section2-mobile.png);
+    background: linear-gradient(0.5turn, white 10%, transparent, rgba(255, 255, 255, 0.384) 99.9%), url(../images/Mobile/Section2-mobile.png);
     background-position: left;
     background-repeat: no-repeat;
   }
@@ -196,7 +196,7 @@
     position: relative;
     width: 521px;
     height: 279px;
-    background: url(images/Mobile/app-preview-mobile.png);
+    background: url(../images/Mobile/app-preview-mobile.png);
     background-position: 50% 25%;
   }
   main .get-started {
@@ -240,7 +240,7 @@
   main .get-started .mobile-background {
     width: 360px;
     height: 565px;
-    background: url(images/Mobile/Section3-mobile.png);
+    background: url(../images/Mobile/Section3-mobile.png);
   }
   main .features {
     background: #f4f6f9;
@@ -469,7 +469,7 @@
   main .last-section .ls-img {
     height: 261px;
     width: 100%;
-    background: url(images/Mobile/last-section-mobile.png);
+    background: url(../images/Mobile/last-section-mobile.png);
   }
   footer {
     width: 360px;

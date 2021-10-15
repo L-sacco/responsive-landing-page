@@ -81,12 +81,12 @@
             }
          }
          .google {
-            background: url(images/Google-Play.png);
+            background: url(../images/Google-Play.png);
             background-repeat: no-repeat;
             background-position: center;
          }
          .apple {
-            background: url(images/Apple-Store.png);
+            background: url(../images/Apple-Store.png);
             background-repeat: no-repeat;
             background-position: center;
          }
@@ -156,7 +156,7 @@
                   transparent,
                   rgba(255, 255, 255, 0.384) 99.9%
                ),
-               url(images/Mobile/Section2-mobile.png);
+               url(../images/Mobile/Section2-mobile.png);
             background-position: left;
             background-repeat: no-repeat;
 
@@ -164,7 +164,7 @@
                position: relative;
                width: 521px;
                height: 279px;
-               background: url(images/Mobile/app-preview-mobile.png);
+               background: url(../images/Mobile/app-preview-mobile.png);
                background-position: 50% 25%;
             }
          }
@@ -196,7 +196,7 @@
          .mobile-background {
             width: 360px;
             height: 565px;
-            background: url(images/Mobile/Section3-mobile.png);
+            background: url(../images/Mobile/Section3-mobile.png);
          }
       }
       // end of getstarted
@@ -367,7 +367,7 @@
          .ls-img {
             height: 261px;
             width: 100%;
-            background: url(images/Mobile/last-section-mobile.png);
+            background: url(../images/Mobile/last-section-mobile.png);
          }
       }
       // end of last-section
